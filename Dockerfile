@@ -1,7 +1,7 @@
 FROM debian:bullseye-slim
 
-LABEL maintainer="ACE Team - https://github.com/acemod"
-LABEL org.opencontainers.image.source=https://github.com/acemod/docker-reforger
+LABEL maintainer="ACE Team - https://github.com/acemod - edit LeBleu-Pyrhus"
+LABEL org.opencontainers.image.source=https://github.com/LeBleu-Pyrhus/docker-reforger
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update \
@@ -74,6 +74,7 @@ ENV GAME_MODS_JSON_FILE_PATH=""
 ENV GAME_PROPS_VON_DISABLE_UI=false
 ENV GAME_PROPS_VON_DISABLE_DIRECT_SPEECH_UI=false
 ENV GAME_PROPS_VON_CAN_TRANSMIT_CROSS_FACTION=false
+ENV GAME_LOAD_SESSION_SAVE=true
 
 ENV SKIP_INSTALL=false
 
