@@ -261,6 +261,7 @@ launch = [
     "-backendlog",
     "-nothrow",
     "-maxFPS",
+    "-loadSessionSave",
     os.environ["ARMA_MAX_FPS"],
     "-profile",
     os.environ["ARMA_PROFILE"],
