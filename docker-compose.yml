@@ -1,7 +1,7 @@
 ---
 services:
   arma-reforger:
-    image: ghcr.io/acemod/arma-reforger:latest
+    image: ghcr.io/LeBleu-Pyrhus/docker-reforger:latest
     platform: linux/amd64
     container_name: arma-reforger
     ports:
